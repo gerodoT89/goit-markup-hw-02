@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+main {
+  font-family: "Roboto", sans-serif;
+}
+/*-----------------WebStudio----------------*/
+.webstudio {
+  width: 400;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.webtuning {
+  color: #2196f3;
+}
+/*-----------------Header------------------*/
+.header-hover:hover {
+  color: #2196f3;
+}
+.header-name-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-contact-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.section-background-color {
+  background-color: #2f303a;
+}
+.section-effective-solutions {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button-background-color {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
