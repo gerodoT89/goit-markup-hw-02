@@ -198,10 +198,6 @@ footer {
   letter-spacing: 0.03em;
   color: var(--main-batton-address-color);
 }
-.main-all-section:hover,
-.main-all-section:focus {
-  color: #188ce8;
-}
 .main-name-section {
   font-weight: 500;
   font-size: 16px;
@@ -214,6 +210,7 @@ footer {
 .main-name-section:hover,
 .main-name-section:focus {
   background-color: #188ce8;
+  color: var(--main-batton-address-color);
 }
 .portfolio-text-color {
   color: #2196f3;
