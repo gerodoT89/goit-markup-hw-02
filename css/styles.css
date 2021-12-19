@@ -1,12 +1,16 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #212121;
 }
 main {
   font-family: "Roboto", sans-serif;
 }
+footer{
+  background-color: #676872;
+}
 :root {
   --main-text-color: #757575;
-  --main-name-text-color: #212121;
+  --main-batton-address-color:#FFFFFF;
 }
 /*-----------------WebStudio----------------*/
 .webstudio {
@@ -17,7 +21,10 @@ main {
   letter-spacing: 0.03em;
   color: #000000;
 }
-.webtuning {
+.web {
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #2196f3;
 }
 /*-----------------Header------------------*/
@@ -36,15 +43,16 @@ main {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color:var(--main-text-color)
 }
 .header-tell {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color:var(--main-text-color)
 }
+/*------Секция основного материала--*/
 .section-background-color {
   background-color: #2f303a;
 }
@@ -55,7 +63,7 @@ main {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color:var(--main-batton-address-color)
 }
 .button-background-color {
   width: 200px;
@@ -66,16 +74,9 @@ main {
   box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.15);
   border-radius: 4px;
 }
-.button-text {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  olor: #ffffff;
+
 }
+/*------Секция рода занятий нашей организации--*/
 .section-name-main-material {
   font-weight: bold;
   font-size: 14px;
@@ -90,4 +91,48 @@ main {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+/*------Секция "наша команда"------*/
+.occupation-team-sections{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-name-section{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--main-name-text-color)
+}
+.proffesin-section{
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--main-text-color)
+}
+/*-----------Секция футера-----------*/
+.studio-footer{
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color:var(--main-batton-address-color)
+}
+.footer-contact-section{
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address-section{
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color:var(--main-batton-address-color)
 }
