@@ -99,10 +99,6 @@ footer {
   letter-spacing: 0.06em;
   color: var(--main-batton-address-color);
 }
-.button-style:hover,
-.button-style:focus {
-  color: #597994;
-}
 /*------Секция рода занятий нашей организации--*/
 .section-name-main-material {
   font-family: inherit;
